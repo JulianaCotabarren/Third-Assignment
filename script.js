@@ -10,6 +10,7 @@ const sortedHeroesContainer = document.getElementById('sorted-heroes-list');
 const comicsContainer = document.getElementById('comics-list');
 let arrHeroes = [];
 let arrComics = [];
+let arrSortedHeroes = [];
 const baseEndpoint = import.meta.env.VITE_MARVEL_API_BASE_URL;
 const privateKey = import.meta.env.VITE_MARVEL_API_PRIVATE_KEY;
 const publicKey = import.meta.env.VITE_MARVEL_API_PUBLIC_KEY;
