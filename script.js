@@ -10,9 +10,9 @@ const sortedHeroesContainer = document.getElementById('sorted-heroes-list');
 const comicsContainer = document.getElementById('comics-list');
 let arrHeroes = [];
 let arrComics = [];
-const baseEndpoint = import.meta.env.MARVEL_API_BASE_URL;
-const privateKey = import.meta.env.MARVEL_API_PRIVATE_KEY;
-const publicKey = import.meta.env.MARVEL_API_PUBLIC_KEY;
+const baseEndpoint = import.meta.env.VITE_MARVEL_API_BASE_URL;
+const privateKey = import.meta.env.VITE_MARVEL_API_PRIVATE_KEY;
+const publicKey = import.meta.env.VITE_MARVEL_API_PUBLIC_KEY;
 
 document.addEventListener('DOMContentLoaded', obtainData);
 open.addEventListener("click", () => nav.classList.add("visible"));
